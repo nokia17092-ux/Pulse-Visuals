@@ -1,0 +1,22 @@
+{
+  "menu.pulse_visuals.title": "Pulse Visuals",
+  "menu.pulse_visuals.button": "Visuals",
+  "category.pulse_visuals.hit_particles": "Hit Particles",
+  "category.pulse_visuals.target_hud": "Target HUD",
+  "category.pulse_visuals.damage_numbers": "Damage Numbers",
+  "category.pulse_visuals.critical_effects": "Critical Effects",
+  "category.pulse_visuals.trajectory": "Trajectory",
+  "category.pulse_visuals.weapon_trails": "Weapon Trails",
+  "category.pulse_visuals.combo": "Combo System",
+  "category.pulse_visuals.crosshair": "Dynamic Crosshair",
+  "category.pulse_visuals.low_hp": "Low HP Pulse",
+  "category.pulse_visuals.sprint_trail": "Sprint Trail",
+  "category.pulse_visuals.hit_direction": "Hit Direction",
+  "category.pulse_visuals.fps_optimizer": "FPS Optimizer",
+  "option.pulse_visuals.enabled": "Enabled",
+  "option.pulse_visuals.disabled": "Disabled",
+  "option.pulse_visuals.entity_culling": "Entity Culling",
+  "option.pulse_visuals.particle_limiter": "Smart Particle Limit",
+  "option.pulse_visuals.mob_ai_throttle": "Mob AI Throttle",
+  "option.pulse_visuals.dynamic_fov": "Dynamic Render Distance"
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.pulsevisuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "LivingEntityMixin",
+    "GameMenuScreenMixin",
+    "InGameHudMixin",
+    "GameRendererMixin",
+    "EntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

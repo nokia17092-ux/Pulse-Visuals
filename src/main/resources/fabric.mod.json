@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "pulse-visuals",
+  "version": "${version}",
+  "name": "Pulse Visuals",
+  "description": "Advanced PvP visual effects, HUD elements, and FPS optimizer for Minecraft 1.21.4",
+  "authors": ["PulseVisuals"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pulse-visuals/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.pulsevisuals.PulseVisuals"],
+    "client": ["com.pulsevisuals.PulseVisualsClient"]
+  },
+  "mixins": [
+    "pulse-visuals.mixins.json",
+    {
+      "config": "pulse-visuals.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
